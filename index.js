@@ -33,13 +33,17 @@ let index=0
 
 
 
-const fun = (num) => {
-  if(inoki.length >num){
-    console.log("盆梅や＝")
+// const fun = (num) => {
+//   if(inoki.length >num){
+//     console.log("盆梅や＝")
 
-  }else{
-    console.log("unntimann")
-  }
+//   }else{
+//     console.log("unntimann")
+//   }
+// }
+
+function add() {
+  
 }
 
 
@@ -63,5 +67,8 @@ console.log(test2.goTotest())
 // console.log(document)
 // 要素へのアプローチ
 
-console.log(document.getElementsByTagName("button"))
+console.log(document.getElementsByTagName("button")[0].addEventListener("click" ,()=>{
+  window.alert("trernrner")
+  // addEventListener引数に際に行えるオブジェクト, 次が関数になる
+}))
 
