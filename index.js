@@ -55,3 +55,13 @@ const test2 = {
 
 console.log(test2.goTotest())
 
+// 関数には()が必須
+
+// defaultオブジェクト
+// console.log(window)
+// 全体のアプローチ
+// console.log(document)
+// 要素へのアプローチ
+
+console.log(document.getElementsByTagName("button"))
+
