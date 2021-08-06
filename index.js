@@ -43,4 +43,15 @@ const fun = (num) => {
 }
 
 
+// オブジェクトって何
+const test2 = {
+  color: "pink",
+  size: "large",
+  purfume: "mint",
+  goTotest: () =>{
+    console.log("saikyou");
+  }
+};
+
+console.log(test2.goTotest())
 
