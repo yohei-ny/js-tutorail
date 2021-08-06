@@ -43,6 +43,7 @@ let index=0
 // }
 
 function add() {
+  const tes =input.value;
   
 }
 
