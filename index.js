@@ -31,4 +31,16 @@ let index=0
 
 
 
-if 
+
+
+const fun = (num) => {
+  if(inoki.length >num){
+    console.log("盆梅や＝")
+
+  }else{
+    console.log("unntimann")
+  }
+}
+
+
+
